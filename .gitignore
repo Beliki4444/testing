@@ -3,3 +3,9 @@ coverage
 .DS_Store
 dist
 *.log
+
+#ide files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
