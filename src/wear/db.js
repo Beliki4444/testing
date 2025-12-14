@@ -138,7 +138,7 @@ const COYA_DB_URI = 'mongodb://gen_user:Slot-Aloft5-Sitter@89.23.99.17:27017/coy
  * @param {string} userId - ID пользователя (например: 'user_001')
  * @param {string|Date} fromDate - Начало периода (ISO строка или Date)
  * @param {string|Date} toDate - Конец периода (ISO строка или Date)
- * @returns {Promise<OuraSleepSession[]>} Массив записей сна
+ * @returns {Promise<OuraSleepSession[]>} Массив записей сна.
  */
 export async function getOuraSleepSessions(userId, fromDate, toDate) {
   const client = new MongoClient(OURA_DB_URI);
